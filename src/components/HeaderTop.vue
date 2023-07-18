@@ -3,17 +3,16 @@
           <div class="container d-flex justify-content-between align-items-center">
 
             <div class="logo">
-              <h1><a href="index.html">SoftLand</a></h1>
+              <h1><a href="#">SoftLand</a></h1>
               <!-- Uncomment below if you prefer to use an image logo -->
               <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
 
             <nav id="navbar" class="navbar">
               <ul>
-                <li><a class="active " href="index.html">Home</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a class="active " href="#home_page">Home</a></li>
+                <li><a href="#pricing_page">Pricing</a></li>
+                <li><a href="#_blog_page">Blog</a></li>
                 <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
                   <ul>
                     <li><a href="#">Drop Down 1</a></li>
@@ -31,7 +30,7 @@
                     <li><a href="#">Drop Down 4</a></li>
                   </ul>
                 </li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#contact_us">Contact Us</a></li>
               </ul>
               <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -41,5 +40,5 @@
 </template>
 
 <style scoped>
-@import '/src/assets/bootstrap.min.css';
+
 </style>
